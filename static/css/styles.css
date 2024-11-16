@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Timer display styling */
+.timer {
+    font-size: 4rem;
+    margin: 20px;
+}
+
+.timer  .armed{
+    color: rgb(206, 203, 61);
+}
+
+
+.timer .fin{
+    color: rgb(77, 180, 56);
+}
+
+/* Button styling */
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: #282c34;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
